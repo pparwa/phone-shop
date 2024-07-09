@@ -1,0 +1,17 @@
+.list-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(80px , 220px));
+    margin-top: 4%;
+    gap: 4rem;
+}
+.product-list-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.product-list-header select{
+    width: 10%;
+    text-align: center;
+}
+

@@ -1,0 +1,15 @@
+.Feature-container{
+    text-align: center;
+    padding: 4rem;
+}
+.Feature-container h2{
+   font-size: 2.5rem;
+}
+.products-container{
+   margin: 3% 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, [col-start] minmax(100px, 250px) [col-end]);
+    gap: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}

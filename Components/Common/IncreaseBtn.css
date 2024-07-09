@@ -1,0 +1,14 @@
+.increase {
+    border-radius: 50%;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.increase:disabled {
+    opacity: 0.8;
+}

@@ -1,0 +1,51 @@
+.cart-page-container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin:0 auto;
+    
+}
+.user-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    gap: 3rem;
+    
+}
+.user-profiel{
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+.user-profiel img{
+    width: 4vw;
+    height: 6vh;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.tabel-bill{
+    width: 40%;
+    align-self: flex-end;
+}
+
+.tabel-bill ,tr ,td{
+    border: 1px solid black;
+        border-collapse: collapse;
+}
+.tabel-bill tr:last-child td{
+    font-weight: bold;
+
+}
+.user-container .check-out{
+    width: 10%;
+    align-self: flex-end;
+    padding:0.5rem  1rem;
+    border: none;
+    outline: none;
+    background-color: rgb(129, 91, 164);
+    color: #fff;
+    border-radius: 10px;
+}

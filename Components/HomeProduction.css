@@ -1,0 +1,53 @@
+.home-section{
+    width: 100%;
+    height: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #000;
+
+}
+.home-section .img-box{
+    width: 100%;
+    height: 100%;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.home-section .details{
+    width: 100%;
+    height: 100%;
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    gap: 1rem;
+}
+.details .text{
+    text-align: center;
+    width: 50%;
+}
+.details button{
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    color:#000;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.buy-link{
+        padding: 1rem 2rem;
+            border-radius: 20px;
+            color: #000;
+            outline: none;
+            border: none;
+            font-size: 1rem;
+            font-weight: 500;
+            background-color: aliceblue;
+            text-decoration: none;
+}

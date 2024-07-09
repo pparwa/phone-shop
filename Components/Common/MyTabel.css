@@ -1,0 +1,20 @@
+.cart-tabel-container{
+    width: 100%;
+    padding: 1rem;
+}
+.cart-tabel-container thead{
+    background-color: rgb(135, 63, 203);
+    border-collapse: collapse;
+} 
+.cart-tabel-container thead th{
+    border: none;
+
+}
+.cart-tabel-container tbody{
+    box-shadow: 2px 4px 5px gray,2px 4px 5px gray;
+    padding: 2rem;
+}
+.cart-tabel-container tbody tr{
+    text-align: center;
+    
+} 

@@ -1,0 +1,16 @@
+.nav-link{
+    display: flex;
+    justify-content:flex-start;
+    width: 70%;
+    margin-left: 5%;
+    text-decoration: none;
+    margin-top: 3%;
+}
+.nav-link img{
+height: 5vh;
+
+}
+.nav-link > a.active{
+    font-weight: 600;
+    transform: scale(1.2);
+}

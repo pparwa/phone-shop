@@ -1,0 +1,6 @@
+.product-page-container{
+    display: grid;
+    margin: 0 3%;
+    grid-template-columns: 1fr 4fr;
+    
+}
